@@ -137,13 +137,12 @@ echo %milk%
 echo %birthdayCake%
 echo %foppaFren%
 )> invStats/invstats.txt
-
+pause
 goto loadgame
 
 :loadgame
 cls
-cd stats
-if exist foppastats.txt (
+if exist stats/foppastats.txt (
     (
     set /p fhunger=
     set /p fsanity=
@@ -427,4 +426,5 @@ echo %foppaFren%
 )> invStats/invstats.txt
 
 goto game
+
 
