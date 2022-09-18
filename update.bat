@@ -3,6 +3,7 @@ color F0 & title Updating a RABF slot...
 if %slotGamemode% equ 1 (
    set slotGamemodeDisplay=Normal
 )
+
 if %slotGamemode% equ 2 (
    set slotGamemodeDisplay=Hard
 )
