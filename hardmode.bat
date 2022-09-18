@@ -3,6 +3,7 @@ title Raise a batched Floppa HARD MODE
 color 60
 mode con: cols=50 lines=20
 
+
 ::Welcome message!!
 :welcome
 color 0F
